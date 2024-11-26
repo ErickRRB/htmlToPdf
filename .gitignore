@@ -1,0 +1,51 @@
+# Compilados y archivos generados
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.pyc
+*.tmp
+*.bak
+*.swp
+
+# Configuraciones del usuario
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dependencias y configuraciones de NuGet
+*.nupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Configuraciones específicas de la plataforma
+.DS_Store
+Thumbs.db
+
+# Publicación
+publish/
+*.Publish.xml
+
+# Archivos del sistema y configuraciones específicas
+*.log
+*.ide
+*.manifest
+*.tlog
+
+# WebView2 Runtime Cache
+WebView2/
+WebView2Cache/
+
+# Configuraciones globales de herramientas de línea de comandos
+global.json
+
+# Archivo del entorno del sistema
+.env
+.env.*
